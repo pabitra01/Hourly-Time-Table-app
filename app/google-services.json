@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "553083806006",
+    "project_id": "your-day-52d73",
+    "storage_bucket": "your-day-52d73.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:553083806006:android:b8cf67486b5196a1881397",
+        "android_client_info": {
+          "package_name": "com.pabi.yourday"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "553083806006-pada3t8cgso0o0vv0gr531djkjgtu7d1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmMUHL9jgcSeBD2hZoIibQLHXJcazwHoQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "553083806006-pada3t8cgso0o0vv0gr531djkjgtu7d1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

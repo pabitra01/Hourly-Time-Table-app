@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"   >
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:orientation="vertical">
+                       <TextView
+                                   android:id="@+id/textView"
+                                   android:layout_width="match_parent"
+                                   android:layout_height="wrap_content"
+                                   android:layout_weight="1"
+                                   android:background="@color/firstGrey"
+                                   android:padding="25dp"
+                                   android:textSize="17sp"
+                                   android:text="6 AM - 7 AM"
+                                   android:textColor="@color/black" />
+
+                       <TextView
+                                   android:id="@+id/textView2"
+                                   android:layout_width="match_parent"
+                                   android:layout_height="wrap_content"
+                                   android:layout_weight="1"
+                                   android:background="@color/white"
+                                   android:padding="25dp"
+                                   android:textSize="17sp"
+                                   android:text="7 AM - 8 AM"
+                                   android:textColor="@color/black" />
+
+                        <TextView
+                                    android:id="@+id/textView3"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:background="@color/firstGrey"
+                                    android:padding="25dp"
+                                    android:textSize="17sp"
+                                    android:text="8 AM - 9 AM"
+                                    android:textColor="@color/black" />
+
+                        <TextView
+                                    android:id="@+id/textView4"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:background="@color/white"
+                                    android:padding="25dp"
+                                    android:textSize="17sp"
+                                    android:text="9 AM - 10 AM"
+                                    android:textColor="@color/black" />
+                   <TextView
+                               android:id="@+id/textView5"
+                               android:layout_width="match_parent"
+                               android:layout_height="wrap_content"
+                               android:layout_weight="1"
+                               android:background="@color/firstGrey"
+                               android:padding="25dp"
+                               android:textSize="17sp"
+                               android:text="10 AM - 11 AM"
+                               android:textColor="@color/black" />
+
+                   <TextView
+                               android:id="@+id/textView6"
+                               android:layout_width="match_parent"
+                               android:layout_height="wrap_content"
+                               android:layout_weight="1"
+                               android:background="@color/white"
+                               android:padding="25dp"
+                               android:textSize="17sp"
+                               android:text="11 AM - 12 "
+                               android:textColor="@color/black" />
+                     <TextView
+                                 android:id="@+id/textView7"
+                                 android:layout_width="match_parent"
+                                 android:layout_height="wrap_content"
+                                 android:layout_weight="1"
+                                 android:background="@color/firstGrey"
+                                 android:padding="25dp"
+                                 android:textSize="17sp"
+                                 android:text="12 - 1 PM"
+                                 android:textColor="@color/black" />
+
+                     <TextView
+                                 android:id="@+id/textView8"
+                                 android:layout_width="match_parent"
+                                 android:layout_height="wrap_content"
+                                 android:layout_weight="1"
+                                 android:background="@color/white"
+                                 android:padding="25dp"
+                                 android:textSize="17sp"
+                                 android:text="1 PM - 2 PM"
+                                 android:textColor="@color/black" />
+                     <TextView
+                                 android:id="@+id/textView9"
+                                 android:layout_width="match_parent"
+                                 android:layout_height="wrap_content"
+                                 android:layout_weight="1"
+                                 android:background="@color/firstGrey"
+                                 android:padding="25dp"
+                                 android:textSize="17sp"
+                                 android:text="2 PM - 3 PM"
+                                 android:textColor="@color/black" />
+
+                     <TextView
+                                 android:id="@+id/textView10"
+                                 android:layout_width="match_parent"
+                                 android:layout_height="wrap_content"
+                                 android:layout_weight="1"
+                                 android:background="@color/white"
+                                 android:padding="25dp"
+                                 android:textSize="17sp"
+                                 android:text="3 PM - 4 PM"
+                                 android:textColor="@color/black" />
+
+                       <TextView
+                                   android:id="@+id/textView11"
+                                   android:layout_width="match_parent"
+                                   android:layout_height="wrap_content"
+                                   android:layout_weight="1"
+                                   android:background="@color/firstGrey"
+                                   android:padding="25dp"
+                                   android:textSize="17sp"
+                                   android:text="4 PM - 5 PM"
+                                   android:textColor="@color/black" />
+
+                       <TextView
+                                   android:id="@+id/textView12"
+                                   android:layout_width="match_parent"
+                                   android:layout_height="wrap_content"
+                                   android:layout_weight="1"
+                                   android:background="@color/white"
+                                   android:padding="25dp"
+                                   android:textSize="17sp"
+                                   android:text="5 PM - 6 PM"
+                                   android:textColor="@color/black" />
+
+                         <TextView
+                                     android:id="@+id/textView13"
+                                     android:layout_width="match_parent"
+                                     android:layout_height="wrap_content"
+                                     android:layout_weight="1"
+                                     android:background="@color/firstGrey"
+                                     android:padding="25dp"
+                                     android:textSize="17sp"
+                                     android:text="6 PM - 7 PM"
+                                     android:textColor="@color/black" />
+
+                         <TextView
+                                     android:id="@+id/textView14"
+                                     android:layout_width="match_parent"
+                                     android:layout_height="wrap_content"
+                                     android:layout_weight="1"
+                                     android:background="@color/white"
+                                     android:padding="25dp"
+                                     android:textSize="17sp"
+                                     android:text="7 PM - 8 PM"
+                                     android:textColor="@color/black" />
+
+                           <TextView
+                                       android:id="@+id/textView15"
+                                       android:layout_width="match_parent"
+                                       android:layout_height="wrap_content"
+                                       android:layout_weight="1"
+                                       android:background="@color/firstGrey"
+                                       android:padding="25dp"
+                                       android:textSize="17sp"
+                                       android:text="8 PM - 9 PM"
+                                       android:textColor="@color/black" />
+
+                           <TextView
+                                       android:id="@+id/textView16"
+                                       android:layout_width="match_parent"
+                                       android:layout_height="wrap_content"
+                                       android:layout_weight="1"
+                                       android:background="@color/white"
+                                       android:padding="25dp"
+                                       android:textSize="17sp"
+                                       android:text="9 PM - 10 PM"
+                                       android:textColor="@color/black" />
+                     <TextView
+                                 android:id="@+id/textView17"
+                                 android:layout_width="match_parent"
+                                 android:layout_height="wrap_content"
+                                 android:layout_weight="1"
+                                 android:background="@color/firstGrey"
+                                 android:padding="25dp"
+                                 android:textSize="17sp"
+                                 android:text="10 PM - 11 PM"
+                                 android:textColor="@color/black" />
+
+                     <TextView
+                                 android:id="@+id/textView18"
+                                 android:layout_width="match_parent"
+                                 android:layout_height="wrap_content"
+                                 android:layout_weight="1"
+                                 android:background="@color/white"
+                                 android:padding="25dp"
+                                 android:textSize="17sp"
+                                 android:text="11 PM - 12"
+                                 android:textColor="@color/black" />
+                     <TextView
+                                 android:id="@+id/textView19"
+                                 android:layout_width="match_parent"
+                                 android:layout_height="wrap_content"
+                                 android:layout_weight="1"
+                                 android:background="@color/firstGrey"
+                                 android:padding="25dp"
+                                 android:textSize="17sp"
+                                 android:text="12 - 1 AM"
+                                 android:textColor="@color/black" />
+
+                     <TextView
+                                 android:id="@+id/textView20"
+                                 android:layout_width="match_parent"
+                                 android:layout_height="wrap_content"
+                                 android:layout_weight="1"
+                                 android:background="@color/white"
+                                 android:padding="25dp"
+                                 android:textSize="17sp"
+                                 android:text="1 AM - 2 AM"
+                                 android:textColor="@color/black" />
+
+                       <TextView
+                                   android:id="@+id/textView21"
+                                   android:layout_width="match_parent"
+                                   android:layout_height="wrap_content"
+                                   android:layout_weight="1"
+                                   android:background="@color/firstGrey"
+                                   android:padding="25dp"
+                                   android:textSize="17sp"
+                                   android:text="2 AM - 3 AM"
+                                   android:textColor="@color/black" />
+
+                       <TextView
+                                   android:id="@+id/textView22"
+                                   android:layout_width="match_parent"
+                                   android:layout_height="wrap_content"
+                                   android:layout_weight="1"
+                                   android:background="@color/white"
+                                   android:padding="25dp"
+                                   android:textSize="17sp"
+                                   android:text="3 AM - 4 AM"
+                                   android:textColor="@color/black" />
+
+
+
+                         <TextView
+                                     android:id="@+id/textView23"
+                                     android:layout_width="match_parent"
+                                     android:layout_height="wrap_content"
+                                     android:layout_weight="1"
+                                     android:background="@color/firstGrey"
+                                     android:padding="25dp"
+                                     android:textSize="17sp"
+                                     android:text="4 AM - 5 AM"
+                                     android:textColor="@color/black" />
+
+                         <TextView
+                                     android:id="@+id/textView24"
+                                     android:layout_width="match_parent"
+                                     android:layout_height="wrap_content"
+                                     android:layout_weight="1"
+                                     android:background="@color/white"
+                                     android:padding="25dp"
+                                     android:textSize="17sp"
+                                     android:text="5 AM - 6 AM"
+                                     android:textColor="@color/black" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               </LinearLayout>
+
+
+
+
+        </ScrollView>
+
+
+</LinearLayout>
